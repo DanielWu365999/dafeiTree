@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>dafeiTree</title>
+	<link href="dafeiTree/dafeiTree.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="dafeiTree/dafeiTree.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+	<style>
+	.margin-lr{
+		margin-left:100px;
+		font-size: 12px;
+		color: #3c4b52;
+	}
+	.logs{
+		width:980px;
+		border: 1px solid #ccc;
+		padding: 30px;
+		word-break:break-all;
+	}
+	.operate-area{
+		margin-left:100px;
+		margin-bottom: 30px;
+	}
+	.operate-area a{
+		text-decoration: none;
+		font-size: 12px;
+		display: inline-block;
+		padding: 5px 8px;
+		width:80px;
+		text-align: center;
+		background: #ddd;
+		color: #3c4b52;
+		border-radius: 3px;
+		margin-right: 10px;
+	}
+	.operate-area a:hover{
+		opacity: 0.7
+	}
+	</style>
+</head>
+<body>
+<div class="operate-area">
+	<a href="javascript:;" id="getCheckIds">获取勾选Id</a>
+	<a href="javascript:;" id="getCheckData">获取勾选数据</a>
+</div>
+<div id="myTree" class="tree" style="margin-left: 80px;">
+	<!-- <ul class="root-child">
+		<li>
+			<input type="checkbox" />
+			<span>北京网</span>
+			<ul>
+				<li>
+					<input type="checkbox" />
+					<span>北京广播</span>
+				</li>
+				<li>
+					<input type="checkbox" />
+					<span>北京TV</span>
+				</li>
+				<li>
+					<input type="checkbox" />
+					<span>北京微信</span>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="root-child">
+		<li>
+			<input type="checkbox" />
+			<span>珠海网</span>
+			<ul>
+				<li>
+					<input type="checkbox" />
+					<span>珠海广播</span>
+				</li>
+				<li>
+					<input type="checkbox" />
+					<span>珠海TV</span>
+				</li>
+				<li>
+					<input type="checkbox" />
+					<span>珠海微信</span>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="root-child">
+		<li>
+			<input type="checkbox" />
+			<span>上海网</span>
+			<ul>
+				<li>
+					<input type="checkbox" />
+					<span>上海广播</span>
+				</li>
+				<li>
+					<input type="checkbox" />
+					<span>上海TV</span>
+				</li>
+				<li>
+					<input type="checkbox" />
+					<span>上海微信</span>
+				</li>
+				<ul>
+					<li>
+						<input type="checkbox" />
+						<span>上海小程序</span>
+					</li>
+				</ul>
+			</ul>
+		</li>
+	</ul> -->
+</div>
+<div class="logs margin-lr"></div>
+</body>
+</html>
