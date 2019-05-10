@@ -1,0 +1,28 @@
+div.tree{
+	font-size: 12px;
+	color:#3c4b52;
+	zoom:1;
+}
+div.tree:after{
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+div.tree input,div.tree span{
+	vertical-align:middle;
+}
+div.tree ul{
+	padding-left: 20px;
+}
+div.tree ul li{
+	list-style-type: none;
+	margin:5px 0;
+	vertical-align:middle; 
+}
+div.tree ul.root-child{
+	float: left;
+}
+div.tree .checkAll-contanier{
+	margin-left: 20px;
+}
