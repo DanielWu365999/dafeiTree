@@ -1,11 +1,8 @@
 # dafeiTree
-# 初始化
-```javascript
+## 初始化
 var myTree = $('#myTree').dafeiTree(options);
-# API
-## 获取勾选ids  
-```javascript
+## API
+### 获取勾选ids  
 myTree.getCheckIdStr()
-## 获取勾选数据    
-```javascript
+### 获取勾选数据    
 myTree.getCheckData()
