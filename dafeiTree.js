@@ -138,14 +138,18 @@
 						$(this).prop('checked',false);
 					})
 				}
-				var targetNode = _this.parent('li').parent('ul');
-				if((targetNode.find('input[name="checkOne"]:checked').length) == targetNode.find('li').length){
-					targetNode.siblings('input[name="checkOne"]').prop('checked',true);
-				}else{
-					targetNode.siblings('input[name="checkOne"]').prop('checked',false);
-				}
+				that.setParentIsCheck(_this);
 			})
 			
+		}
+		fn.setParentIsCheck = function(_this){
+			var targetNode = _this.parent('li').parent('ul');
+			if((targetNode.find('input[name="checkOne"]:checked').length) == targetNode.find('li').length){
+				targetNode.siblings('input[name="checkOne"]').prop('checked',true);
+			}else{
+				targetNode.siblings('input[name="checkOne"]').prop('checked',false);
+			}
+			this.setParentIsCheck(targetNode);
 		}
 		fn.getCheckIdStr = function(){
 			var arr = [];
