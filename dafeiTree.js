@@ -138,6 +138,7 @@
 						$(this).prop('checked',false);
 					})
 				}
+				
 				that.setParentIsCheck(_this);
 			})
 			
