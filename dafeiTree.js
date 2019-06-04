@@ -144,6 +144,9 @@
 			
 		}
 		fn.setParentIsCheck = function(_this){
+			if(_this.length == 0){
+				return false
+			}
 			var targetNode = _this.parent('li').parent('ul');
 			if((targetNode.find('input[name="checkOne"]:checked').length) == targetNode.find('li').length){
 				targetNode.siblings('input[name="checkOne"]').prop('checked',true);
