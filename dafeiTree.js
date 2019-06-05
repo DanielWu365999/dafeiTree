@@ -10,48 +10,331 @@
 		var fn = tree.prototype;
 		fn.init = function(){
 			var data = {
-				"list": [{
-					"id": "1101EEB2AE28455AAD38A8ADA536A08D",
-					"name": "珠海网",
-					"children":[
-						{
-						"id": "BFAFA10DDAC24459AC46872835EF431C",
-						"name": "珠海新闻",
-						"pid": "1101EEB2AE28455AAD38A8ADA536A08D",
-						"children":[{
-							"id": "BFAFA10DDAC24459AC46872835EF431C",
-							"name": "珠海新也有",
-							"pid": "1101EEB2AE28455AAD38A8ADA536A08D"
-						}]
-						}, {
-						"id": "9FAAF68F47B0463E891D3D906D39C1FD",
-						"name": "先锋951",
-						"pid": "1101EEB2AE28455AAD38A8ADA536A08D"
-						}, {
-						"id": "A1E533409C0943BC93C8E027B917C11A",
-						"name": "珠海电台活力915",
-						"pid": "1101EEB2AE28455AAD38A8ADA536A08D"
-						}
-					]
-				},{
-					"id": "2201EEB2AE28455AAD38A8ADA536A08D",
-					"name": "北京网",
-					"children":[
-						{
-						"id": "1FAFA10DDAC24459AC46872835EF431C",
-						"name": "北京网新闻",
-						"pid": "2201EEB2AE28455AAD38A8ADA536A08D"
-						}, {
-						"id": "0FAAF68F47B0463E891D3D906D39C1FD",
-						"name": "北京网951",
-						"pid": "2201EEB2AE28455AAD38A8ADA536A08D"
-						}, {
-						"id": "M1E533409C0943BC93C8E027B917C11A",
-						"name": "北京网活力915",
-						"pid": "2201EEB2AE28455AAD38A8ADA536A08D"
-						}
-					]
-				}],
+				"list": [
+            {
+                "id": 62,
+                "systemId": 24,
+                "pid": 0,
+                "name": "开发助手",
+                "url": "#",
+                "target": null,
+                "orders": 2,
+                "version": 0,
+                "icon": null,
+                "children": [
+                    {
+                        "id": 79,
+                        "systemId": 24,
+                        "pid": 62,
+                        "name": "日志查看",
+                        "icon": null,
+                        "url": "/logView/index",
+                        "target": null,
+                        "orders": 1,
+                        "addTime": "2019-06-04T02:05:18.000+0000",
+                        "updateTime": "2019-06-04T02:05:18.000+0000",
+                        "version": 0,
+                        "children": []
+                    },
+                    {
+                        "id": 80,
+                        "systemId": 24,
+                        "pid": 62,
+                        "name": "日志面板",
+                        "icon": null,
+                        "url": "/logPanel/index",
+                        "target": null,
+                        "orders": 2,
+                        "addTime": "2019-06-04T02:05:34.000+0000",
+                        "updateTime": "2019-06-04T02:05:34.000+0000",
+                        "version": 0,
+                        "children": []
+                    },
+                    {
+                        "id": 81,
+                        "systemId": 24,
+                        "pid": 62,
+                        "name": "错误分析",
+                        "icon": null,
+                        "url": "/page/dev_assistant/dev_assistant_1.jsp",
+                        "target": null,
+                        "orders": 3,
+                        "addTime": "2019-06-04T02:05:59.000+0000",
+                        "updateTime": "2019-06-04T02:05:59.000+0000",
+                        "version": 0,
+                        "children": []
+                    },
+                    {
+                        "id": 82,
+                        "systemId": 24,
+                        "pid": 62,
+                        "name": "错误列表",
+                        "icon": null,
+                        "url": "/page/dev_assistant/dev_assistant_2.jsp",
+                        "target": null,
+                        "orders": 4,
+                        "addTime": "2019-06-04T02:06:22.000+0000",
+                        "updateTime": "2019-06-04T02:06:22.000+0000",
+                        "version": 0,
+                        "children": []
+                    },
+                    {
+                        "id": 83,
+                        "systemId": 24,
+                        "pid": 62,
+                        "name": "接入文档",
+                        "icon": null,
+                        "url": "/common/index?jspPath=/wikitem/wikiTem",
+                        "target": null,
+                        "orders": 5,
+                        "addTime": "2019-06-04T02:06:53.000+0000",
+                        "updateTime": "2019-06-04T02:06:53.000+0000",
+                        "version": 0,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 61,
+                "systemId": 24,
+                "pid": 0,
+                "name": "数据分析",
+                "url": "#",
+                "target": null,
+                "orders": 1,
+                "version": 1,
+                "icon": null,
+                "children": [
+                    {
+                        "id": 63,
+                        "systemId": 24,
+                        "pid": 61,
+                        "name": "数据概览",
+                        "icon": null,
+                        "url": "#",
+                        "target": null,
+                        "orders": 1,
+                        "addTime": "2019-06-04T01:54:25.000+0000",
+                        "updateTime": "2019-06-04T01:54:25.000+0000",
+                        "version": 0,
+                        "children": [
+                            {
+                                "id": 66,
+                                "systemId": 24,
+                                "pid": 63,
+                                "name": "游戏概览",
+                                "icon": null,
+                                "url": "/gameOverView/index_new",
+                                "target": null,
+                                "orders": 1,
+                                "addTime": "2019-06-04T01:55:53.000+0000",
+                                "updateTime": "2019-06-04T01:55:53.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 67,
+                                "systemId": 24,
+                                "pid": 63,
+                                "name": "日报",
+                                "icon": null,
+                                "url": "/dailydata/index",
+                                "target": null,
+                                "orders": 2,
+                                "addTime": "2019-06-04T01:56:23.000+0000",
+                                "updateTime": "2019-06-04T01:56:23.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 68,
+                                "systemId": 24,
+                                "pid": 63,
+                                "name": "周报",
+                                "icon": null,
+                                "url": "/weekly/view",
+                                "target": null,
+                                "orders": 3,
+                                "addTime": "2019-06-04T01:56:52.000+0000",
+                                "updateTime": "2019-06-04T01:56:52.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 69,
+                                "systemId": 24,
+                                "pid": 63,
+                                "name": "月报",
+                                "icon": null,
+                                "url": "/monthly/index",
+                                "target": null,
+                                "orders": 4,
+                                "addTime": "2019-06-04T01:57:09.000+0000",
+                                "updateTime": "2019-06-04T01:57:09.000+0000",
+                                "version": 0,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": 64,
+                        "systemId": 24,
+                        "pid": 61,
+                        "name": "实时数据",
+                        "icon": null,
+                        "url": "#",
+                        "target": null,
+                        "orders": 2,
+                        "addTime": "2019-06-04T01:54:49.000+0000",
+                        "updateTime": "2019-06-04T01:54:49.000+0000",
+                        "version": 0,
+                        "children": [
+                            {
+                                "id": 70,
+                                "systemId": 24,
+                                "pid": 64,
+                                "name": "实时数据",
+                                "icon": null,
+                                "url": "/realTime/view/v1",
+                                "target": null,
+                                "orders": 1,
+                                "addTime": "2019-06-04T01:57:53.000+0000",
+                                "updateTime": "2019-06-04T01:57:53.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 71,
+                                "systemId": 24,
+                                "pid": 64,
+                                "name": "实时留存",
+                                "icon": null,
+                                "url": "/common/index?jspPath=/apply_analysis/data_overview/realtimeKeep",
+                                "target": null,
+                                "orders": 2,
+                                "addTime": "2019-06-04T01:58:43.000+0000",
+                                "updateTime": "2019-06-04T01:58:43.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 72,
+                                "systemId": 24,
+                                "pid": 64,
+                                "name": "实时分渠道分区服",
+                                "icon": null,
+                                "url": "/common/index?jspPath=/apply_analysis/data_overview/realtimeChannel",
+                                "target": null,
+                                "orders": 3,
+                                "addTime": "2019-06-04T01:59:22.000+0000",
+                                "updateTime": "2019-06-04T01:59:22.000+0000",
+                                "version": 0,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": 65,
+                        "systemId": 24,
+                        "pid": 61,
+                        "name": "游戏玩家",
+                        "icon": null,
+                        "url": "#",
+                        "target": null,
+                        "orders": 3,
+                        "addTime": "2019-06-04T01:55:07.000+0000",
+                        "updateTime": "2019-06-04T01:55:07.000+0000",
+                        "version": 0,
+                        "children": [
+                            {
+                                "id": 73,
+                                "systemId": 24,
+                                "pid": 65,
+                                "name": "新增玩家",
+                                "icon": null,
+                                "url": "/newPlayer/index",
+                                "target": null,
+                                "orders": 1,
+                                "addTime": "2019-06-04T02:00:24.000+0000",
+                                "updateTime": "2019-06-04T02:00:24.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 74,
+                                "systemId": 24,
+                                "pid": 65,
+                                "name": "活跃玩家",
+                                "icon": null,
+                                "url": "/actPlayer/index",
+                                "target": null,
+                                "orders": 2,
+                                "addTime": "2019-06-04T02:00:45.000+0000",
+                                "updateTime": "2019-06-04T02:00:45.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 75,
+                                "systemId": 24,
+                                "pid": 65,
+                                "name": "玩家留存",
+                                "icon": null,
+                                "url": "/playerRemain/index",
+                                "target": null,
+                                "orders": 3,
+                                "addTime": "2019-06-04T02:01:07.000+0000",
+                                "updateTime": "2019-06-04T02:01:07.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 76,
+                                "systemId": 24,
+                                "pid": 65,
+                                "name": "付费转化",
+                                "icon": null,
+                                "url": "/common/index?jspPath=/apply_analysis/gamer/pay_conversion",
+                                "target": null,
+                                "orders": 4,
+                                "addTime": "2019-06-04T02:01:38.000+0000",
+                                "updateTime": "2019-06-04T02:01:38.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 77,
+                                "systemId": 24,
+                                "pid": 65,
+                                "name": "玩家流失",
+                                "icon": null,
+                                "url": "/userLost/index",
+                                "target": null,
+                                "orders": 5,
+                                "addTime": "2019-06-04T02:02:02.000+0000",
+                                "updateTime": "2019-06-04T02:02:02.000+0000",
+                                "version": 0,
+                                "children": []
+                            },
+                            {
+                                "id": 78,
+                                "systemId": 24,
+                                "pid": 65,
+                                "name": "设备相关",
+                                "icon": null,
+                                "url": "/device/index",
+                                "target": null,
+                                "orders": 6,
+                                "addTime": "2019-06-04T02:02:24.000+0000",
+                                "updateTime": "2019-06-04T02:02:24.000+0000",
+                                "version": 0,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
 				"status": 200,
 				"msg": "查询成功"
 			}
@@ -85,6 +368,8 @@
 				}
 			})
 			$('#'+ that.treeId).prepend(checkAllStr);
+			fn.renderExpandArrow();   //加折叠箭头
+			fn.arrowClickEvents();   //箭头点击事件
 		}
 		fn.renderColumnData = function(data){  //获取一列数据
 			var that = this;
@@ -99,16 +384,17 @@
 		fn.recursive = function(data){
 			var that = this;
 			var beginStr = '<ul>', oneDataStr = '';
-			var tpl = '<li id="{id}"><input type="hidden" name="data" value=\{data}><input type="checkbox" name="checkOne" /><span>{name}</span>';
-			$.each(data.children,function(index,value){
-				oneDataStr += tpl.replace('{id}',value.id)
-						  .replace('{name}',value.name)
-						  .replace('{data}',JSON.stringify(value))
-				if(value.children && value.children.length > 0){
-					oneDataStr += that.recursive(value);
-				}
-			})
-			return beginStr += oneDataStr + '</ul></li></ul>';
+			if(data.children.length > 0){
+				$.each(data.children,function(index,value){
+					beginStr += '<li id='+value.id+'>';
+					beginStr += '<input type="hidden" name="data" value='+JSON.stringify(value)+'>';
+					beginStr += '<input type="checkbox" name="checkOne"/>';
+					beginStr += '<span>'+value.name+'</span>'
+					beginStr += that.recursive(value);
+					beginStr += '</li>';
+				})
+			}
+			return beginStr += '</ul>';
 		}
 		fn.initEvents = function(){
 			var that = this;
@@ -138,7 +424,6 @@
 						$(this).prop('checked',false);
 					})
 				}
-				
 				that.setParentIsCheck(_this);
 			})
 			
@@ -147,12 +432,17 @@
 			if(_this.length == 0){
 				return false
 			}
-			var targetNode = _this.parent('li').parent('ul');
-			if((targetNode.find('input[name="checkOne"]:checked').length) == targetNode.find('li').length){
+			var targetNode = _this.parent('li').parent('ul').siblings('input[name="checkOne"]');
+			if(_this.prop('checked')){
+				targetNode.prop('checked',true);
+			}else{
+				targetNode.prop('checked',false);
+			}
+			/*if((targetNode.find('input[name="checkOne"]:checked').length) == targetNode.find('li').length){
 				targetNode.siblings('input[name="checkOne"]').prop('checked',true);
 			}else{
 				targetNode.siblings('input[name="checkOne"]').prop('checked',false);
-			}
+			}*/
 			this.setParentIsCheck(targetNode);
 		}
 		fn.getCheckIdStr = function(){
@@ -163,6 +453,24 @@
 				}
 			})
 			return arr.join(',');
+		}
+		fn.renderExpandArrow = function(){
+			$('#myTree li').each(function(index){
+				if($(this).find('ul li').length > 0){
+					$(this).prepend('<span class="tree_icon expand"></span>')
+				}
+			})
+		}
+		fn.arrowClickEvents =function(){
+			$('#myTree').delegate('span.tree_icon','click',function(){
+				if($(this).hasClass('expand')){
+					$(this).siblings('ul').slideUp();
+					$(this).removeClass('expand');
+				}else{
+					$(this).siblings('ul').slideDown();
+					$(this).addClass('expand');
+				}
+			})
 		}
 		fn.getCheckData = function(){
 			var arr = [];
