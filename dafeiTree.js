@@ -435,7 +435,7 @@
 			var targetNode = _this.parent('li').parent('ul').siblings('input[name="checkOne"]');
 			if(_this.prop('checked')){
 				targetNode.prop('checked',true);
-			}else{
+			}else if(_this.parent('li').siblings('li').find('input[name="checkOne"]').prop('checked') == false){
 				targetNode.prop('checked',false);
 			}
 			/*if((targetNode.find('input[name="checkOne"]:checked').length) == targetNode.find('li').length){
