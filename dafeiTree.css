@@ -26,3 +26,15 @@ div.tree ul.root-child{
 div.tree .checkAll-contanier{
 	margin-left: 20px;
 }
+.tree_icon{
+	width:0;
+	height:0;
+	display:inline-block;
+	border-top:4px solid transparent;
+	border-bottom:4px solid transparent;
+	border-left:5px solid #666;
+	cursor:pointer;
+}
+.tree_icon.expand{
+	transform: rotate(90deg);
+}
